@@ -3,7 +3,7 @@
 while true
 do
 	TIME=$(date +"%s")
-	curl http://ice.portal2/jetty/api/v1/status >> $1
+	curl -m 3 http://ice.portal2/jetty/api/v1/status >> $1
 	echo "\n" >> $1
-	sleep 1s
+	sleep 4.5s
 done
