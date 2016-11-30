@@ -3,7 +3,7 @@
 Tool for logging information about German ICE trains using the REST API of the "ICE Portal". Logs information about the current internet connection status, the train speed, its location, and the time in JSON format. This log can then be converted to a GPX file.
 You need to be logged into the train WiFi to use this tool. First and second class both work.
 
-## Usage:
+## Usage
 
 ```sh
 ./logger.sh mytrip.json
