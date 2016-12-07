@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ $# -ne 1 ]; then
+	echo "Usage: ${0} output.json" >&2
+	exit 1
+fi
+
 while true
 do
 	TIME=$(date +"%s")
